@@ -94,7 +94,7 @@ function ifItemExists(item) {
     // another short way of doing this is
     // using includes methods of array
     
-    return items.includes(item);
+    return items !== null && items.includes(item);
     
 }
 
