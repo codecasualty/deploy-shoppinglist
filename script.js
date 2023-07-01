@@ -64,7 +64,7 @@ function onClick(e) {
         update = false;
     }
 
-    btn.textContent = 'Clear All';
+    btn.textContent = 'Add Item';
     btn.style.backgroundColor = 'black';
     // now we got the value form text field 
     // its time to add this value in our list
